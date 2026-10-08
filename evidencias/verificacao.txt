@@ -1,0 +1,11 @@
+=== Verificação do TAR ===
+./
+./index.html
+
+=== Teste HTTP local (servidor Python no host; não é container) ===
+HTTP 200
+Content-Type text/html
+<h1>Olá! Meu site está no ar.</h1>
+
+=== Disponibilidade do Docker Engine ===
+Docker não instalado neste ambiente; build e execução real do container não foram possíveis.

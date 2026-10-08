@@ -1,0 +1,6 @@
+Configuração incluída no projeto: Dockerfile
+Base: debian:trixie-slim
+Servidor: Apache HTTP (porta 80)
+Artefato incluído na imagem: meu_site.tar
+Comando de build: docker build -t meu-site:1.0 .
+Comando de execução: docker run -d --name meu-site -p 8080:80 meu-site:1.0
